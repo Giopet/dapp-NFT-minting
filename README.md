@@ -18,7 +18,7 @@ If you need to update npm to the latest version, you can do so by typing the fol
 
     npm install -g npm
 
-    This will install the latest version of npm globally on your system.
+This will install the latest version of npm globally on your system.
 
 That's it! You have successfully installed npm on your system. You can now use npm to manage packages and dependencies for your Node.js projects.
 
