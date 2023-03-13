@@ -29,3 +29,4 @@ Write a command using the CLI to create a react app:
 
 ![image](https://user-images.githubusercontent.com/53083156/224837980-71dfe1d3-7c8c-4fe9-9a2b-4779c6f5d7e3.png)
 
+## Wallet Setup
