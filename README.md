@@ -25,5 +25,5 @@ That's it! You have successfully installed npm on your system. You can now use n
 
 - Write a command using the CLI to create a react app: 
 	```console
-	npx cretae-react-app frontend
+	npx create-react-app frontend
 	 ```
