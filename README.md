@@ -1,6 +1,6 @@
 # dapp-NFT-minting
 
-## Setup
+## React App Setup
 
 ### Install Npm
 
@@ -21,7 +21,7 @@ This will install the latest version of npm globally on your system.
 
 That's it! You have successfully installed npm on your system. You can now use npm to manage packages and dependencies for your Node.js projects.
 
-## React app
+### create react app
 
 Write a command using the CLI to create a react app: 
 
