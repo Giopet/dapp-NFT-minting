@@ -2,7 +2,7 @@
 
 ## Setup
 
-# Install Npm
+### Install Npm
 
 To install npm, you need to follow these steps:
     Download and install Node.js from the official website (https://nodejs.org/).
