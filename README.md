@@ -27,3 +27,5 @@ That's it! You have successfully installed npm on your system. You can now use n
 	```console
 	npx create-react-app frontend
 	 ```
+![image](https://user-images.githubusercontent.com/53083156/224837980-71dfe1d3-7c8c-4fe9-9a2b-4779c6f5d7e3.png)
+
