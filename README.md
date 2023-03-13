@@ -30,3 +30,14 @@ Write a command using the CLI to create a react app:
 ![image](https://user-images.githubusercontent.com/53083156/224837980-71dfe1d3-7c8c-4fe9-9a2b-4779c6f5d7e3.png)
 
 ## Wallet Setup
+
+To download MetaMask, please follow these steps:
+1. Go to the MetaMask website: https://metamask.io/
+2. Click on "Download" in the menu at the top of the page.
+3. Select the version that corresponds to your web browser. MetaMask is available for Chrome, Firefox, Brave, and Edge.
+4. Click the "Add to Chrome" or "Add to Firefox" button to start the download process.
+5. After the download is complete, open your web browser and click on the MetaMask icon in the top right corner of your browser.
+6. Follow the instructions to set up your MetaMask account and create a new wallet.
+7. Make sure to write down your seed phrase and store it in a safe place. This is the only way to recover your MetaMask wallet if you lose access to your device.
+
+That's it! You are now ready to use MetaMask to interact with decentralized applications (dapps) on the Ethereum blockchain.
