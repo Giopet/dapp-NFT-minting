@@ -41,3 +41,7 @@ To download MetaMask, please follow these steps:
 7. Make sure to write down your seed phrase and store it in a safe place. This is the only way to recover your MetaMask wallet if you lose access to your device.
 
 That's it! You are now ready to use MetaMask to interact with decentralized applications (dapps) on the Ethereum blockchain.
+
+## Blockchain for developers
+
+At the core of a blockchain is a cryptographic ledger managed by nodes which can be run on any computer, or by miners. It is these nodes that power the blockchain. Every transaction that occurs is stored and encrypted as a hash. These hashes are then stored in combinations as a block. Every node will then submit their block hashes to the network, and if they don't match that means they contain invalid ledger history, and are rejected and overwritten by the correct block. 
