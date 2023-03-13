@@ -5,18 +5,15 @@
 # Install Npm
 
 To install npm, you need to follow these steps:
-
     Download and install Node.js from the official website (https://nodejs.org/).
-
     Once Node.js is installed, open your command prompt (for Windows users) or terminal (for Mac and Linux users).
-
     Verify that Node.js and npm are installed correctly by typing the following commands:
 
-node -v
-npm -v
+	node -v
+
+	npm -v
 
 If these commands return version numbers, it means that Node.js and npm are installed correctly.
-
 If you need to update npm to the latest version, you can do so by typing the following command:
 
     npm install -g npm
