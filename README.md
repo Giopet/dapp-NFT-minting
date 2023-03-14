@@ -193,8 +193,12 @@ On Metamask plugin you can show the network you are on and you can change it for
 ## Smart contracts
 
 At the core of what makes DApps work are smart contracts. Smart contracts are the programming classes of web three, and they're the backend and transactional layer of all of the decentralized applications that we build. 
-Think of smart contracts as a special type of programming class that they have functions and variables. Some of the variables are built in, like those that store the ether within the contract. Others are custom that you write yourself:
+
+Think of smart contracts as a special type of programming class that they have functions and variables. Some of the variables are built in, like those that store the ether within the contract.
+Others are custom that you write yourself:
 - public functions that could be called on from outside of the smart contract like from our DApp
 - private that can only be called on internally within the smart contract.
+
+![image](https://user-images.githubusercontent.com/53083156/225157938-af148d13-edc2-49f4-b8b5-a56aa4c6978b.png)
 
 Any of this data that's being stored in these variables or in the contract is written to the blockchain.
