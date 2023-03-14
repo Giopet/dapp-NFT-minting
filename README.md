@@ -177,3 +177,10 @@ Let's take a look at the details of today's ethereum full stack:
 - The file system has settled to pretty much the interplanetary file system(**IPFS**) as the decentralized source of data. Swarm still exists, but most applications today in NFT projects tend to use IPFS for storage. And the arrival of pinata is a nice user friendly layer that sits on top of IPFS and makes it easy to interact with. 
 
 ![image](https://user-images.githubusercontent.com/53083156/225144821-67ab40d0-ceca-42bd-a068-615cfe295482.png)
+
+## Wallets
+
+The wallet is where users keep their tokens, both fungible and NFTs, but crypto wallets do more than that. The wallet is where the user experience begins and ends. For our dApps, we'll be interacting with these wallets either via mobile apps, or via web plugins.
+
+There are many different [wallets](https://www.ethereum.org/en/wallets/find-wallet/) available for Ethereum. These wallets sometimes specialize in one thing or another, they might be an actual browser, a plugin, or an app.
+
