@@ -92,12 +92,21 @@ Interest Models:
 
 ### Tokens & NFTs
 
-Tokens are the spendable or what we call fungible currency that can be created on a blockchain for a bunch of different use cases. 
-Non fungible tokens or NFTs use the same technology to enable people to exchange digital goods and more. 
+**Tokens** are the spendable or what we call fungible currency that can be created on a blockchain for a bunch of different use cases. 
+**Non fungible tokens** (NFTs) use the same technology to enable people to exchange digital goods and more. 
  
-Tokens on the blockchain come at two basic forms. One is the native currency of the blockchain, for example, ETH on Ethereum. And custom tokens also that are created through smart contracts. These custom tokens can be created to provide a number of different utilities from rewards in a network, devoting power to novelty like Doge. 
+Tokens on the blockchain come at two basic forms:
+- Native currency of the blockchain, for example, ETH on Ethereum. 
+- Custom tokens that are created through smart contracts. These custom tokens can be created to provide a number of different utilities from rewards in a network, devoting power to novelty like Doge. 
  
- The way these contracts work is they adhere to a specific standard. Now there are a number of different standards for tokens but the main one that we use is ERC-20. So the ERC-20 token specifies how a specific tokens can work, how you send them, how you can manage events, how you can do all kinds of things, anything you think would happen surrounding any kind of a token, it'll happen because of what's written in the standard. And if you look at the standard, you can see it's really just a number of methods and events that you implement. So creating your own token is simply a matter of creating a contract that implements these specific methods and events and does them in the way that you want them to. Many tokens that you've heard of are created using the ERC-20 token. These are all tracked on Etherscan. So you can actually go into Etherscan which is sort of the visualizer of the Ethereum network. And it will show you all the tokens, all the ERC-20 contracts that have been deployed on the Mainnet. And you can see therefore, a number of different tokens from stable coins to coins for different protocols to wrapped tokens and more.
+ The way these contracts work is they adhere to a specific standard. Now there are a number of different standards for tokens but the main one that we use is [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/). 
+ERC-20 token specifies:
+- how a specific tokens can work
+- how you send them
+- how you can manage events
+- how you can do all kinds of things 
+Anything you think would happen surrounding any kind of a token, it'll happen because of what's written in the standard. And if you look at the standard, you can see it's really just a number of methods and events that you implement. So creating your own token is simply a matter of creating a contract that implements these specific methods and events and does them in the way that you want them to. 
+Many tokens that you've heard of are created using the ERC-20 token. These are all tracked on Etherscan. So you can actually go into Etherscan which is sort of the visualizer of the Ethereum network. And it will show you all the tokens, all the ERC-20 contracts that have been deployed on the Mainnet. And you can see a number of different tokens from stable coins to coins for different protocols to wrapped tokens and more.
  
   NFTs function in a similar way that ERC-20 tokens. And again, there are multiple contracts for these but the main one that people use is ERC-721. And this defines again how they're transferred and what happens. Now, NFTs often have additional functions outside of that original contract because they can be used for a number of different use cases. And additionally, because of their singularity and flexibility, these can be used to represent not just images, but also access tokens, other types of media, lottery tickets, domain names, and pretty much anything you can think of. So NFTs have become a real phenomenon for traders and a lot of projects have soared. It's funny, there's even new vocabulary that's come into our lexicon like aped in and that's what we call it when someone decides to buy an NFT, I aped in to some collection. 
   
