@@ -185,6 +185,7 @@ The wallet is where users keep their tokens, both fungible and NFTs, but crypto 
 There are many different [wallets](https://www.ethereum.org/en/wallets/find-wallet/) available for Ethereum. These wallets sometimes specialize in one thing or another, they might be an actual browser, a plugin, or an app.
 
 There are networks on Metamask that you can use for testing: https://metamask.io/ -> Login -> Settings -> Networks
-On Metamask plugin you can show the network you are on and you can change it for testing reasons. Metamask plugin -> Ethereum Mainnet -> Show/Hide test networks -> Show test networks (ON)
+On Metamask plugin you can show the network you are on and you can change it for testing reasons. Metamask plugin -> Ethereum Mainnet -> Show/Hide test networks -> Show test networks (ON).
+
 ![image](https://user-images.githubusercontent.com/53083156/225154760-9495b0eb-5ece-4960-9a5c-1a87c905a3aa.png)
 
