@@ -169,7 +169,7 @@ The stack is the combined tool set that's used to interact with the client, to h
 
 ![image](https://user-images.githubusercontent.com/53083156/225140844-45ce0ea4-734b-4300-b029-502bfe04e07b.png)
 
-Let's take a look at the details of today's full stack:
+Let's take a look at the details of today's ethereum full stack:
 - The wallet is typically **MetaMask**.
 - **web3.js** was the original JavaScript client library, and this is supporting interacting with the wallet and talking to the blockchain. However **Ethers.js** has evolved, and it's a newer library and it's a little bit smaller and more well documented, and even has some other benefits.
 - Testing of smart contracts is typically done in **Truffle** if you're using web3.js suite, and in **Waffle**, which is new, and that goes along with the Ethers.js.
