@@ -224,3 +224,18 @@ Ethereum is Turing-complete programming language, everything is stored on the bl
 Smart contracts can do all kinds of financial processing and due to the fact that it's right into the blockchain, it costs gas. And of course it can hold data beyond just transactional and store that state. So, any key value pairs can be stored essentially in the blockchain, but every time you call the smart contract, that data will be available to the smart contract.
 
 So, smart contracts are the programming classes that live on the blockchain, and they're what we use to be called on and operated with through our DApps. And it's really these smart contracts that give web three its core utility, and they're responsible for everything from tokenization to NFTs, to DeFi operations and more. 
+
+## IPFS, Swarm, and Piñata
+
+While Ethereum nodes host and provide the processing power for smart contracts, providing file storage to host client website files, NFT images and metadata, and other files that can support a DApp need a decentralized storage system. Otherwise, they'll be subject to the failings of centralization. This is where InterPlanetary File System, or IPFS, and Swarm come in.
+
+In the beginning, Swarm was conceived as part of Ethereum. It was built for file peer-to-peer storage. It has since become a separate project. They even launched their own coin, BZZ. But it's still linked to Ether and the Ethereum network. It works, and it's still an active project, but it doesn't have the performance and scalability that IPFS has brought to the table. 
+
+[IPFS](https://ipfs.io) has really become the standard for Web3. The reason why IPFS has this power and scalability is because it operates much in the same way that BitTorrent does. When you upload a file to IPFS, your file's broken up into smaller chunks and cryptographically hashed. When one IPFS node is asked for a file, it will search the network for another node who has that file available. Upon retrieving it, the node will then store that file for future use as well. 
+Additionally, a node can pin files, meaning that each node contains the files that are most useful to it. New uploads of a file have a new CID (content identifier). This makes files resistant to tampering or censorship. So basically, like the blockchain, when you upload an image, it's immutable. It stays there. And if you want to change the image, you'll have to get a new CID, or content identifier, for that new updated image. So IPFS is fast and secure for storing and retrieving files. 
+
+The problem with IPFS is that it's a programmatic operation and ultimately subject to the speed of the IPFS network, which is to say there's limitations. Pinata is a middle layer that makes it easier and faster to interact with IPFS, both for the creators of the application and the consumers of it.
+
+Pinata provides a nice, friendly user interface for easy file uploading and also provides a fast retrieval. I think of it as like a CDN (content delivery network) for IPFS files.
+
+Creating DApps often requires files outside of smart contracts. This might be the HTML, images and JavaScript of a website, or the media and metadata that's linked to an NFT. Either way, Swarm and IPFS offer solutions to store and retrieve these files. And Pinata provides a fast and easy method to upload and retrieve those files.
