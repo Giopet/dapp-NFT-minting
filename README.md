@@ -146,7 +146,7 @@ So ethernodes shows you:
 - The countries that clients are being run in.
 - The sync status. How much of it is synced and how much of it is currently syncing in terms of the block.
 
-[thviewer](https://www.thviewer.live):
+[Ethviewer](https://www.ethviewer.live):
 It gives us a real-time view into what's happening on the blockchain. It shows different miners that are processing data and it shows you what's happening in terms of mining these blocks.
 
 Types of clients that you can run:
