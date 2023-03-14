@@ -163,8 +163,17 @@ So Ethereum is a blockchain for programming. And its core functioning is possibl
 The stack is the combined tool set that's used to interact with the client, to handle data, to write and test code, and to do things that are specific to that environment. The Ethereum stack:
 -  The **blockchain** is the root of everything and what makes decentralized applications possible.
 -  The **wallet** provides a connection between the user, the UI of our DApp, and the blockchain, and it can do simple things like sending and receiving tokens directly.
--  The client side **JavaScript libraries**, which will handle interaction between the wallet and the blockchain on the client.
+-  The client side **JavaScript libraries**, which will handle interaction between the wallet and the blockchain on the client. The client side has pretty much settled to predominantly react.
 -  The **smart contracts** when we want to do more complex interactions with the blockchain and with data. They can be called on by the JavaScript libraries and we'll talk directly to the blockchain.
 -  Any sort of **file storage** that's decentralized is going to be handled by another service.
 
 ![image](https://user-images.githubusercontent.com/53083156/225140844-45ce0ea4-734b-4300-b029-502bfe04e07b.png)
+
+Let's take a look at the details of today's full stack:
+- The wallet is typically **MetaMask**.
+- **web3.js** was the original JavaScript client library, and this is supporting interacting with the wallet and talking to the blockchain. However **Ethers.js** has evolved, and it's a newer library and it's a little bit smaller and more well documented, and even has some other benefits.
+- Testing of smart contracts is typically done in **Truffle** if you're using web3.js suite, and in **Waffle**, which is new, and that goes along with the Ethers.js.
+- When you want to interact directly with the blockchain, it used to be you had to run a node and really look through things quite manually. However, now there are a number of APIs available, including The **Graph**, **Alchemy**, **Morales**, **Infura**, and these have all made it a lot easier, not to mention we don't have to maintain nodes, they can maintain well performing nodes for us.
+- The file system has settled to pretty much the interplanetary file system(**IPFS**) as the decentralized source of data. Swarm still exists, but most applications today in NFT projects tend to use IPFS for storage. And the arrival of pinata is a nice user friendly layer that sits on top of IPFS and makes it easy to interact with. 
+
+![image](https://user-images.githubusercontent.com/53083156/225144821-67ab40d0-ceca-42bd-a068-615cfe295482.png)
