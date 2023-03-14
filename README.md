@@ -199,6 +199,7 @@ Others are custom that you write yourself:
 - public functions that could be called on from outside of the smart contract like from our DApp
 - private that can only be called on internally within the smart contract.
 
-![image](https://user-images.githubusercontent.com/53083156/225157938-af148d13-edc2-49f4-b8b5-a56aa4c6978b.png)
-
 Any of this data that's being stored in these variables or in the contract is written to the blockchain.
+
+Smart Contract is a blockchain class.
+![image](https://user-images.githubusercontent.com/53083156/225157938-af148d13-edc2-49f4-b8b5-a56aa4c6978b.png)
