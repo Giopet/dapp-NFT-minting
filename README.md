@@ -203,3 +203,16 @@ Any of this data that's being stored in these variables or in the contract is wr
 
 Smart Contract is a blockchain class.
 ![image](https://user-images.githubusercontent.com/53083156/225157938-af148d13-edc2-49f4-b8b5-a56aa4c6978b.png)
+
+One big difference between this programming and other development environments is that calling write operations costs ether. We call this "Gas" because it's essentially fueling the blockchain. 
+This can be a good thing because it essentially makes it expensive to write to the blockchain. So, it keeps junk from being written to the blockchain, which is good. It also pays the node operators for helping to fuel the Ethereum network, which is also good. 
+However, on Ethereum, gas is very expensive. When you go to mint an NFT, for example, that's calling a smart contract. 
+
+So, what's happening because of that is there are some layer two environments that are coming about that are built around Ethereum that essentially let you inter-operate with Ethereum, but the gas is paid on the other network. Additionally, some people are moving to some of the other layer, ones like Solana or Stacks.
+
+Every contract runs in its own blockchain partition that's stored in an account, which is basically the same type of an account that would be a wallet address. And these smart contracts can hold tokens and they can release tokens when certain conditions are met, basically you have to call a function to get the data out.
+
+![image](https://user-images.githubusercontent.com/53083156/225159556-545642f6-b818-470f-b02b-5ad3ce4a7e70.png)
+
+One example is you could have a smart contract that holds money. So, when essentially you send money to smart contract, it gets held and when some conditions are met, then it releases the money to the other person. Once those conditions are met, kind of like an escrow, this is really how smart contracts began because it makes it easy for these financial contracts to be written up and essentially eliminate intermediaries. Basically we pay thousands of dollars to have someone escrow money for a house, which is really just this, only there's people monitoring it. But if you could automate it, that would be amazing. 
+But, smart contracts have evolved to be much more complex than that. 
