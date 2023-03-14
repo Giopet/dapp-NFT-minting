@@ -247,3 +247,25 @@ You may have seen some of these addresses, in people's Twitter handles. Drew.eth
 The way that ENS works is there is a single smart contract, that's the ENS registry. And that essentially stores all of the key information, about each of these names. Then these will link to resolvers, and the resolver essentially will determine, how it should be processed, and where to go to get the resource that you're looking for. 
 
 The ultimate decentralized application, though not often realized, is to have everything from the location of the website, to the site's content, to the logic, and all the interactions, all stored on the blockchain. The only real way to do this is through ENS. This is a lookup system, similar to DNS, that maps to an easy to use name, like giopet.eth, with instructions on how to load the web files from IPFS. 
+
+## Architecture of the DApp
+
+![image](https://user-images.githubusercontent.com/53083156/225164875-f0d88a6b-6e94-4407-9d08-9b3bf9d8d5f5.png)
+
+The front end will be React, JavaScript, HTML, and CSS, like pretty much any Web 2.0 site. We use JavaScript libraries to talk to the blockchain, which is Ethers.js.
+
+The web files and assets can be hosted on either IPFS or traditional web hosting environments, AKA, we'll just call it the cloud.
+Keep in mind that if you're hosting solely on IPFS, then you'll need to have the site available via the Ethereum Name Service (ENS), and you're going to have less control over performance and latency. But it will be more decentralized. A site hosted in the cloud is subject to the normal issues of centralization, which is it can be hacked, it can be DDoS-attacked, and generally speaking, it's more centralized. So it can be blocked as well.
+
+We'll use a smart contract to generate our NFTs. There are many uses for smart contracts, but the minting and handling our NFT transactions, the actual NFT contract will be the main one that we use for this particular dApp. 
+
+These will then be deployed to Ethereum and they will be deployed out towards the entire Ethereum blockchain. 
+
+We'll store the images and metadata for our NFTs on IPFS. This will provide a nice decentralized storage mechanism that's secure, each will be uniquely identified, and there's assurances to anyone who's buying our NFTs that we can't change them because the CIDs will be contiguous.
+
+We can also read from the blockchain, if we want to, using third party APIs, like Infura, Alchemy, and The Graph.
+
+
+
+
+
