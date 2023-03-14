@@ -106,6 +106,7 @@ ERC-20 token specifies:
 - how you can manage events
 - how you can do all kinds of things 
 
+ERC-20 defines how a smart contract is written to dictate everything about a token: methods to send, how many tokens are in circulation, how they will be minted and more.
 
 Anything you think would happen surrounding any kind of a token, it'll happen because of what's written in the standard. And if you look at the standard, you can see it's really just a number of methods and events that you implement. So creating your own token is simply a matter of creating a contract that implements these specific methods and events and does them in the way that you want them to. 
 Many tokens that you've heard of are created using the ERC-20 token. These are all tracked on Etherscan. So you can actually go into Etherscan which is sort of the visualizer of the Ethereum network. And it will show you all the tokens, all the ERC-20 contracts that have been deployed on the Mainnet. And you can see a number of different tokens from stable coins to coins for different protocols to wrapped tokens and more.
