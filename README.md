@@ -157,3 +157,14 @@ There are a number of different clients out there and I won't get into them. Typ
 The other piece to know about is you can run clients that are specifically for running testing. And they'll run in the Ethereum client locally. **Ganache** and **Hardhat** are testing environments that can be used for just this purpose. Additionally, there are other networks available in addition to the Mainnet that can be used specifically for testing. So they're kind of like somewhere between your local testing environment and the final Mainnet. 
 
 So Ethereum is a blockchain for programming. And its core functioning is possible because of the EVM. And that's what processes are compiled smart contract. It's available in a number of different version but Geth is pretty much by far and away the most popular. Because Ethereum can process what we call Turing complete programming, which means it can do loops and iterate and things, it gives Ethereum a lot of power and make it a unique and really good platform for decentralized application development. 
+
+## The DApp Stack
+
+The stack is the combined tool set that's used to interact with the client, to handle data, to write and test code, and to do things that are specific to that environment. The Ethereum stack:
+-  The **blockchain** is the root of everything and what makes decentralized applications possible.
+-  The **wallet** provides a connection between the user, the UI of our DApp, and the blockchain, and it can do simple things like sending and receiving tokens directly.
+-  The client side **JavaScript libraries**, which will handle interaction between the wallet and the blockchain on the client.
+-  The **smart contracts** when we want to do more complex interactions with the blockchain and with data. They can be called on by the JavaScript libraries and we'll talk directly to the blockchain.
+-  Any sort of **file storage** that's decentralized is going to be handled by another service.
+
+![image](https://user-images.githubusercontent.com/53083156/225140844-45ce0ea4-734b-4300-b029-502bfe04e07b.png)
