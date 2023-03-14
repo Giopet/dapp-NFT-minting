@@ -248,6 +248,9 @@ The way that ENS works is there is a single smart contract, that's the ENS regis
 
 The ultimate decentralized application, though not often realized, is to have everything from the location of the website, to the site's content, to the logic, and all the interactions, all stored on the blockchain. The only real way to do this is through ENS. This is a lookup system, similar to DNS, that maps to an easy to use name, like giopet.eth, with instructions on how to load the web files from IPFS. 
 
+What do you have to do in order to resolve your dApp via ENS?
+You will need to use javascript libraries like Fleek to ensure ENS is used.
+
 ## Architecture of the DApp
 
 ![image](https://user-images.githubusercontent.com/53083156/225164875-f0d88a6b-6e94-4407-9d08-9b3bf9d8d5f5.png)
