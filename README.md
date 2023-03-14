@@ -239,3 +239,11 @@ The problem with IPFS is that it's a programmatic operation and ultimately subje
 Pinata provides a nice, friendly user interface for easy file uploading and also provides a fast retrieval. I think of it as like a CDN (content delivery network) for IPFS files.
 
 Creating DApps often requires files outside of smart contracts. This might be the HTML, images and JavaScript of a website, or the media and metadata that's linked to an NFT. Either way, Swarm and IPFS offer solutions to store and retrieve these files. And Pinata provides a fast and easy method to upload and retrieve those files.
+
+## Ethereum Naming Service
+
+You may have seen some of these addresses, in people's Twitter handles. Drew.eth for example. Just as the domain naming service, or DNS, helps us to find websites on the web, ENS helps us to find resources on Ethereum. So ENS is its own project. You can register domains at [ens.domains](https://ens.domains/), domain website. When you register a domain, you'll receive an NFT, and that's stored in your Ethereum wallet. Now the ultimate in having a decentralized application, would be to host your website files in IPFS, and have them be discoverable via ENS. That way everything's decentralized. You never have to go to traditional internet network, to get data. If you hosted an app this way, it would effectively be hosted by the blockchain, which means it wouldn't exist at any IP address. And thus could be accessed by anyone, anywhere.
+
+The way that ENS works is there is a single smart contract, that's the ENS registry. And that essentially stores all of the key information, about each of these names. Then these will link to resolvers, and the resolver essentially will determine, how it should be processed, and where to go to get the resource that you're looking for. 
+
+The ultimate decentralized application, though not often realized, is to have everything from the location of the website, to the site's content, to the logic, and all the interactions, all stored on the blockchain. The only real way to do this is through ENS. This is a lookup system, similar to DNS, that maps to an easy to use name, like giopet.eth, with instructions on how to load the web files from IPFS. 
