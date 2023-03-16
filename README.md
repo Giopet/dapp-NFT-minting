@@ -362,3 +362,7 @@ We can rename this to JSON. I'm going to go back into Pinata, and I will upload 
 So that's how everything's set up, and you can add your own properties if you want to. That's the beauty, and those might have to do with the type of utility that you're offering.
 Now that we've got it uploaded into Pinata we can take this data, and we're going to use that data as our token URI that we will use to set up our NFT.
 So we learned in this unit that the key information of NFT is stored by the token URI, which is the metadata, and that will include a link to the image, which should also be stored in Pinata. It's best practice to host these in a decentralized fashion and using IPFS and Pinata can really help make this process easy. Once we've done this, then we're ready to start building the front end of our minting. 
+
+Metadata example: 
+![image](https://user-images.githubusercontent.com/53083156/225751249-1e41b71e-fa2e-4455-b9aa-dbcb9fff6c82.png)
+
