@@ -328,3 +328,11 @@ Deploy command:
 	npx hardhat run scripts/mint-script.ts
 
 It gives you the address. And this is the address in the local server that comes along with Hardhat. So we have our NFT smart contract.
+
+### Testing with Hardhat and Waffle
+
+Hardhat has a couple of ways you can test:
+-  If you're using Ethers.js, you can use Ethers.js and Waffle, which is the testing environment.
+-  If you're using web3.js, you can use web3.js and Truffle. 
+
+Now, regardless of which one you're using, behind the scenes, it's going to be using [Mocha](https://mochajs.org) (is used also in Node.js) and [Chai](https://www.chaijs.com/). Chai is what we use for our assertions, basically, just to test equivalency.
