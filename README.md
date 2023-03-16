@@ -268,6 +268,28 @@ We'll store the images and metadata for our NFTs on IPFS. This will provide a ni
 
 We can also read from the blockchain, if we want to, using third party APIs, like Infura, Alchemy, and The Graph.
 
+## DApp Back-End
+
+Solidity is a language that was created specifically for writing smart contracts. It's a pretty young language, having been first proposed in late 2014 and then later integrated into the Ethereum project. It's ECMAScript based and very similar to JavaScript in syntax. It's influenced by C++ and Python as well. It works by running in the Ethereum virtual machine.
+
+When you compile it, it will be saved to an address on some Ethereum network, either to local testing network or one of the public testing networks or the Ethereum mainnet, depending on where you want to save it.
+
+Your DApp, you're going to be calling most likely, on these contracts from JavaScript. So you can hide that from the user for the most part. They won't actually see which contract you're pulling from. However, it will be technically a different contract. So if you change the NFT contract, it will actually be a different NFT, right? So because of this, it's very important that your code is well thought out and well tested before you publish to the main net. It's also common, even though the bytecode is all that gets published to the network. It's often quite common to publish the source code as well along with it and there's a place to do that.
+
+Solidity is statically typed and supports inheritance. It's very object oriented. It has a lot of built in functionality to support elements of the blockchain and abstract a lot of the cryptography that happens behind the scene. So you don't have to actually learn how that all works. The docs can be found at soliditylang.org.
+
+Any function that writes to the blockchain is going to cost gas, right? So if I read, no problem. That is free externally. But if anything happens, it will be processed and gas is processed in wei, W, E, I. And wei is the smallest unit of Ethereum that you can have, down to the last decimal point, basically, in eth. So oftentimes you'll see numbers are written in those sort of forms, and you'll have to decode how many eth that is by figuring out how many decimal points to add.
+
+There are a number of key concepts to remember. Storage, blockchain versus memory, right? Remember, things will be stored on the blockchain. They'll exist in memory very shortly, but they'll eventually be saved in the blockchain. A lot of the things that will be stored within your smart contract can be accessed.
+
+### IDE
+
+[Remix](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.18+commit.87f61d96.js):
+Exists both online and in a desktop application.
+
+### Testing
+
+HardHat
 
 
 
