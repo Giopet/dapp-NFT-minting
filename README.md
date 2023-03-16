@@ -29,6 +29,10 @@ Write a command using the CLI to create a react app:
 
 ![image](https://user-images.githubusercontent.com/53083156/224837980-71dfe1d3-7c8c-4fe9-9a2b-4779c6f5d7e3.png)
 
+To stop the server:
+	
+	ctrl + c
+
 ## Wallet Setup
 
 To download MetaMask, please follow these steps:
@@ -366,3 +370,32 @@ So we learned in this unit that the key information of NFT is stored by the toke
 Metadata example: 
 ![image](https://user-images.githubusercontent.com/53083156/225751249-1e41b71e-fa2e-4455-b9aa-dbcb9fff6c82.png)
 
+## DApp Client
+
+### Introduction to ether.js and web3.js
+
+Once you have your smart contract ready, you'll need to connect the UI of your DApp to the blockchain. This connective tissue is done using one of two JavaScript classes, web3.js or ethers.js. 
+
+Web3.js is really the OG of Ethereum web DApps. It was originally created by the Ethereum Foundation. It's the oldest library and has the most contributors of either project. It has one single interface for interacting with the blockchain. 
+
+Ethers.js was created and is maintained by a man named Richard Moore about a year or so after Web3S was created. Now this library has grown a lot in popularity, partly because it's a bit lighter weight, another because it has two separate interfaces, one for the provider, which also gives you the ability to connect through different APIs instead of just connecting to the Ethereum testnets and Ethereum Mainnet. And then it also has the Signer, which is how you connect to a wallet when you need to send a private key and things like that. 
+
+Both of these are great projects, and neither is the wrong choice. Web3 is still very popular. I chose ethers.js for this course because it seems to be trending towards the lead due to the things that I just told you. In addition, it also supports out of the box Ethereum Naming Service, or ENS. 
+
+Go to frontend folder and write the command:
+
+	npm install ethers
+	code .
+	
+All the stuff is happening in the Navibar.js file and then we need to import ethers: const {ethers} = require("ethers");
+
+###  Authenticating users with MetaMask 
+
+Let's look at how we can use it to build out our DApp and talk to the wallet. With ethers.js there's two key interfaces, there's the provider and there's the signer. The provider is the main methodology through which we talk to the blockchain. And in fact, when we create a provider, it can help us to determine how we want to talk to it. 
+So by default, it's going to talk to the main net, but we can set it for one of the test nets or localhost or using an API like Infura or Alchemy.
+
+There are a number of different providers depending how you want to connect. We're actually going to use the Web3Provider. This one's nice because it allows you to talk to MetaMask and use MetaMask objects. So that way we're going to be talking to the provider through the wallet and through what's being injected by the wallet. And it allows us to have control in a development environment by changing the network and things like that, which is quite handy.
+
+Now this gives us the ability, right, any of these providers, to do whatever we need in the blockchain. So we can do all kinds of stuff to get whatever information we want including getting balance of any account, going and getting addresses and blocks, and basically, just reading the transaction. It supports ENS, so if we want to look things up, or we can just actually pass addresses as ENS addresses, and it will actually find out what the actual address is. Now that's a wonderful thing. It can also get us signers. And once we get a signer, that's our connection to the wallet, which is going to issue the private key.Now we need that connection in this instance because when we call the mint function, the user's going to have to sign it by their wallet and pay for gas when they mint.
+
+_(navibar.js) So, let's go back into our code, and let's have a look at what we've got. So a few things we're going to need to change. For one is originally our NFT button just said mint now. So now we want it to actually either say mint now, but only if we've connected the wallet. Beforehand, we want it to say connect wallet. So we're doing some checking, and you can see this isConnected, is available to us now because we've imported state from react, the useState, and we've also created this variable isConnected, right? And that's going to use state. So we've got that all set up. Then we have our handleButtonClick. So when the user clicks the button, depending on whether it's connected or not, it's either going to connect the wallet or mint the NFT. So that's that. When we go to connect the wallet, so the first time you connect, remember, it's not going to say mint, it's going to say connect wallet. Now when you go to connect wallet, the handler's going to be this connectWallet function. Now in this function, the provider is being set. So that's our global variable we've created here of the address of the signer and the provider. The provider's being set to the result of instantiating a Web3Provider and passing our window.ethereum object, which we're getting from MetaMask. Then we're going to get the signer and set that to the signer value. And finally, we're going to set the address to the address of whatever address the signer has chosen, the wallet has chosen, and that will call the setAddress function. The setAddress function is just a simple function that sets the address based on what's passed, and it's going to log to the console and also toggle isConnected. So all these things are happening. You can see our mint NFT is empty. We'll get to that. But for now we just want to connect the wallet. So let's go ahead and go back to our browser, and let's open our DApp at localhost 3000. So here we are. Now, I like to turn on my console so I can see what's going on. Now, when I connect wallet, it opens MetaMask. Now, if I'm not logged in, it might prompt me for a password, but I am logged in, so I can go ahead and do that. And I can select which address I want to connect with, connect, and you can see it tells me that it connected and what address, I click OK, and you can see that it changes to mint now. So now I'm ready. I've set my address for my account, and I'm ready to get started minting my application. So now that we've got this in place, let's look at how we can interact with the blockchain using that provider object. _
