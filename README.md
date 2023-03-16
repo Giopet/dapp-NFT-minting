@@ -309,3 +309,18 @@ So for our NFT, we're going to create a smart contract that implements the ERC 7
 	
 	code .
 
+### Creating a mint() function
+
+DappNFT.SOL
+
+### Deploy smart contracts with Hardhat
+
+We'll need to deploy it to a network so that we can interact with it and test it.
+In our contracts folder, we have our NFT contract that we created, and we also have this Lock.sol, and this was part of the project that got created with Hardhat.
+And we're going to use Hardhat for deployment. Notice it also creates a sample script (deploy.ts). Now this script is really the deploy script. So this is what's going to do the deploying, and this one is built for that Lock.sol, but it's nice because it gives us an example that we can utilize. And it's going to deploy based on how we configure it in the Hardhat config file (hardhat.config.ts). 
+
+So the first thing we're going to do is we're going to change our Hardhat configuration so that it's set up for how we need to deploy it.
+I just want to change the solidity version to 0.8.9, just because of how we had set it up (in DappNFT.sol also).
+We create a new script called mint-script.js (to do the deploy), and we can delete this old script 'cause we don't need it anymore, and we could actually delete the Lock.sol as well.
+
+	npx hardhat run scripts/mint-script.ts
