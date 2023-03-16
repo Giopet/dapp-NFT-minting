@@ -293,6 +293,14 @@ Exists both online and in a desktop application.
 
 HardHat
 
+### OpenZeppelin contracts
 
+For certain types of contracts, we have the advantage of using pre-built and pretested smart contracts from [OpenZeppelin](https://www.openzeppelin.com/).
+OpenZeppelin is an open source repo essentially of tested smart contracts that can be reused and is a great starting point. And sometimes for very simple things, it can be the start and endpoint. It can be the actual solution.
+So for our NFT, we're going to create a smart contract that implements the ERC 721 standard. This is the core implementation for NFTs and it's going to handle the minting, transferring, and other key functions of the NFT, and this contract will be the heart of our NFT. 
 
+#### Installation (backend-dapp)
+	
+	mpm install @openzeppelin/contracts
+	
 
