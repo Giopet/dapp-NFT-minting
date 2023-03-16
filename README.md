@@ -323,4 +323,8 @@ So the first thing we're going to do is we're going to change our Hardhat config
 I just want to change the solidity version to 0.8.9, just because of how we had set it up (in DappNFT.sol also).
 We create a new script called mint-script.js (to do the deploy), and we can delete this old script 'cause we don't need it anymore, and we could actually delete the Lock.sol as well.
 
+Deploy command:
+	
 	npx hardhat run scripts/mint-script.ts
+
+It gives you the address. And this is the address in the local server that comes along with Hardhat. So we have our NFT smart contract.
