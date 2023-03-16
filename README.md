@@ -291,7 +291,7 @@ Exists both online and in a desktop application.
 
 ### Testing
 
-HardHat
+[HardHat](https://hardhat.org/) is a super helpful tool for testing and deploying DApps. It provides everything you need to compile, run tests and deploy our smart contracts to the blockchain without having to think about all of the underlying things like Waffle and Ethers.js and all that good stuff. 
 
 ### OpenZeppelin contracts
 
@@ -304,6 +304,8 @@ So for our NFT, we're going to create a smart contract that implements the ERC 7
 	cd backend-dapp
 	
 	npm install @openzeppelin/contracts
+	
+	npx hardhat
 	
 	code .
 
