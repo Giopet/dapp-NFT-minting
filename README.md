@@ -305,4 +305,5 @@ So for our NFT, we're going to create a smart contract that implements the ERC 7
 	
 	mpm install @openzeppelin/contracts
 	
+	code .
 
