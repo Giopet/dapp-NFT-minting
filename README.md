@@ -270,6 +270,8 @@ We can also read from the blockchain, if we want to, using third party APIs, lik
 
 ## DApp Back-End
 
+### Introduction to Solidity
+
 Solidity is a language that was created specifically for writing smart contracts. It's a pretty young language, having been first proposed in late 2014 and then later integrated into the Ethereum project. It's ECMAScript based and very similar to JavaScript in syntax. It's influenced by C++ and Python as well. It works by running in the Ethereum virtual machine.
 
 When you compile it, it will be saved to an address on some Ethereum network, either to local testing network or one of the public testing networks or the Ethereum mainnet, depending on where you want to save it.
