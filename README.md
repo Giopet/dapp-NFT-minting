@@ -301,6 +301,8 @@ So for our NFT, we're going to create a smart contract that implements the ERC 7
 
 #### Installation (backend-dapp)
 	
+	cd backend-dapp
+	
 	mpm install @openzeppelin/contracts
 	
 
