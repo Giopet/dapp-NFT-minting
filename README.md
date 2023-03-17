@@ -180,7 +180,7 @@ Let's take a look at the details of today's ethereum full stack:
 - When you want to interact directly with the blockchain, it used to be you had to run a node and really look through things quite manually. However, now there are a number of APIs available, including The **Graph**, **Alchemy**, **Morales**, **Infura**, and these have all made it a lot easier, not to mention we don't have to maintain nodes, they can maintain well performing nodes for us.
 - The file system has settled to pretty much the interplanetary file system(**IPFS**) as the decentralized source of data. Swarm still exists, but most applications today in NFT projects tend to use IPFS for storage. And the arrival of pinata is a nice user friendly layer that sits on top of IPFS and makes it easy to interact with. 
 
-![image](https://user-images.githubusercontent.com/53083156/225144821-67ab40d0-ceca-42bd-a068-615cfe295482.png)
+![image](https://user-images.githubusercontent.com/53083156/226069592-dc63021b-6ba7-4b7f-8f67-1ad6a013a039.png)
 
 ## Wallets
 
