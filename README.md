@@ -171,7 +171,7 @@ The stack is the combined tool set that's used to interact with the client, to h
 -  The **smart contracts** when we want to do more complex interactions with the blockchain and with data. They can be called on by the JavaScript libraries and we'll talk directly to the blockchain.
 -  Any sort of **file storage** that's decentralized is going to be handled by another service.
 
-![image](https://user-images.githubusercontent.com/53083156/225140844-45ce0ea4-734b-4300-b029-502bfe04e07b.png)
+![image](https://user-images.githubusercontent.com/53083156/226069104-586715f1-527b-4887-9ff7-b167142bcee8.png)
 
 Let's take a look at the details of today's ethereum full stack:
 - The wallet is typically **MetaMask**.
