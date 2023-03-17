@@ -402,7 +402,10 @@ Go to frontend folder and write the command:
 	npm install ethers
 	code .
 	
-All the stuff is happening in the Navibar.js file and then we need to import ethers: const {ethers} = require("ethers");
+All the stuff is happening in the Navibar.js file and then we need to import ethers: 
+```javascript
+const {ethers} = require("ethers");
+```
 
 ###  Authenticating users with MetaMask 
 
