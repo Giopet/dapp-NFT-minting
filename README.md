@@ -353,22 +353,30 @@ A best practice for NFTs it's to deploy your images and your information about t
 
 By keeping your NFT images and metadata decentralized, it instills trust in your NFT project. If you were to have this at a domain location, technically, you could shut down your server, and then all of the images related to the NFTs would be gone. This is what we call a rug in the NFT world and obviously, it's a bad thing. 
  
-So we use IPFS. IPFS is short for InterPlanetary File System. It's basically network file storage that's decentralized. I like to think of it as AWS S3, but on blockchain.
+So we use [IPFS](https://ipfs.tech/). IPFS is short for InterPlanetary File System. It's basically network file storage that's decentralized. I like to think of it as AWS S3, but on blockchain.
 
- Pinata is a service that provides a simple interface to make it easier to interact with the IPFS, both through the web interface that they offer, but also through an API. 
+[Pinata](https://www.pinata.cloud/) is a service that provides a simple interface to make it easier to interact with the IPFS, both through the web interface that they offer, but also through an API. 
  
 When you log in, you have your files, your gateway, and then you can verify CIDs to see what files they link to. So when you upload a new file, it will then create a CID, which is a content identifier, and this is what we use to refer to either the metadata or the image itself.
 When we get this, we're going to do the metadata. So what we're going to do is we're going to upload our file to Pinata, our image, and then we're going to add that to the metadata, and then we're going to upload the metadata, and the metadata will then be what we use for our token URI when we create a new NFT.
 
 So let's go ahead and select a file (for our NFT) and if I click on this, it will let me view. So it's uploaded and you can see the content identifier.
-So I'm going to copy that, then I'm going to go into VS Code, and I'm going to open my metadata file and I'm going to add a content identifier (instead of CID on "image": "ipfs://CID").
-We can rename this to JSON. I'm going to go back into Pinata, and I will upload my metadata file and you notice I also had some other information describing it.  These are the metadata standards that they keep at [OpenSea](https://docs.opensea.io/metadata-stantards) and you can see how, inside of here, there's a particular way that we define everything.
-So that's how everything's set up, and you can add your own properties if you want to. That's the beauty, and those might have to do with the type of utility that you're offering.
-Now that we've got it uploaded into Pinata we can take this data, and we're going to use that data as our token URI that we will use to set up our NFT.
-So we learned in this unit that the key information of NFT is stored by the token URI, which is the metadata, and that will include a link to the image, which should also be stored in Pinata. It's best practice to host these in a decentralized fashion and using IPFS and Pinata can really help make this process easy. Once we've done this, then we're ready to start building the front end of our minting. 
+So I'm going to copy that, then I'm going to go into VS Code, and I'm going to open my metadata file and I'm going to add a content identifier (instead of CID on "image": "ipfs://CID") and put a json extension on the file.
+I'm going to go back into Pinata, and I will upload my metadata file and you notice I also had some other information describing it.  These are the metadata standards that they keep at [OpenSea](https://docs.opensea.io/docs/metadata-standards) and you can see how, inside of here, there's a particular way that we define everything. 
+You can add your own properties if you want to. That's the beauty, and those might have to do with the type of utility that you're offering.
 
-Metadata example: 
-![image](https://user-images.githubusercontent.com/53083156/225751249-1e41b71e-fa2e-4455-b9aa-dbcb9fff6c82.png)
+Metadata format example:
+```json
+{
+  "description": "I love dapp.", 
+  "image": "ipfs://QmRdGz3WRZz7JSLwE74RsxauRuon5snjoBZ8kjgHReAD47", 
+  "name": "Screenshot 2022-02-19 190829",
+  "attributes": [], 
+}
+```
+
+Now that we've got it uploaded into Pinata we can take this data, and we're going to use that data as our token URI that we will use to set up our NFT.
+So we learned in this unit that the key information of NFT is stored by the token URI, which is the metadata, and that will include a link to the image, which should also be stored in Pinata. It's best practice to host these in a decentralized fashion and using IPFS and Pinata can really help make this process easy. Once we've done this, then we're ready to start building the front end of our minting.
 
 ## DApp Client
 
