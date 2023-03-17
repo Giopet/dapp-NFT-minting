@@ -384,11 +384,18 @@ So we learned in this unit that the key information of NFT is stored by the toke
 
 Once you have your smart contract ready, you'll need to connect the UI of your DApp to the blockchain. This connective tissue is done using one of two JavaScript classes, web3.js or ethers.js. 
 
-Web3.js is really the OG of Ethereum web DApps. It was originally created by the Ethereum Foundation. It's the oldest library and has the most contributors of either project. It has one single interface for interacting with the blockchain. 
+Web3.js:
+- It is the OG( Original Gangster) of Ethereum web DApps.
+- It was originally created by the Ethereum Foundation. 
+- It's the oldest library 
+- It has the most contributors of either project. 
+- It has one single interface for interacting with the blockchain. 
 
-Ethers.js was created and is maintained by a man named Richard Moore about a year or so after Web3S was created. Now this library has grown a lot in popularity, partly because it's a bit lighter weight, another because it has two separate interfaces, one for the provider, which also gives you the ability to connect through different APIs instead of just connecting to the Ethereum testnets and Ethereum Mainnet. And then it also has the Signer, which is how you connect to a wallet when you need to send a private key and things like that. 
+Ethers.js:
+- It was created and is maintained by Richard Moore about a year after Web3.js was created. 
+- Now this library has grown a lot in popularity, partly because it's a bit lighter weight, another because it has two separate interfaces, one for the provider, which also gives you the ability to connect through different APIs instead of just connecting to the Ethereum testnets and Ethereum Mainnet. And then it also has the Signer, which is how you connect to a wallet when you need to send a private key and things like that. 
 
-Both of these are great projects, and neither is the wrong choice. Web3 is still very popular. I chose ethers.js for this course because it seems to be trending towards the lead due to the things that I just told you. In addition, it also supports out of the box Ethereum Naming Service, or ENS. 
+Both of these are great projects, and neither is the wrong choice. Web3 is still very popular. I chose ethers.js for this project because it seems to be trending towards the lead. In addition, it also supports out of the box Ethereum Naming Service (ENS). 
 
 Go to frontend folder and write the command:
 
