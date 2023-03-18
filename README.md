@@ -29,6 +29,8 @@ Type the following command to create a react app and name it:
 npx create-react-app frontend
 ```
 
+#### Useful commands
+
 Starts the development server:
 ```console
 npm start
@@ -50,7 +52,8 @@ If you do this, you can't go back!
 npm run eject
 ```
 
-Suggested beginning by typing:
+
+#### Suggested beginning by typing:
 ```console
 cd frontend
 ```
@@ -58,10 +61,9 @@ cd frontend
 npm start
 ```
 
-Stops the server:
+#### Stops the server:
 
-	ctrl + c
-
+	 ctrl + c
 
 ## Wallet Setup
 
