@@ -7,6 +7,13 @@
 Download and install Node.js from the official website (https://nodejs.org/).
 Once Node.js is installed, open your command prompt (for Windows users) or terminal (for Mac and Linux users).
 Verify that Node.js and npm are installed correctly by typing the following commands:
+```console
+node -v
+```
+```console
+node -v
+```
+
 
 	node -v
 
