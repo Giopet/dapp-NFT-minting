@@ -100,17 +100,18 @@ As a developer, there are a few key concepts and skills that you should familiar
 
 ## Decentralization and Web3 opportunities
 
-DeFi (decentralized finance), tokenization, NFTs, DAOs (decentralized autonomous organizations), gaming applications, and other types of DApps (decentralized applications). 
+Decentralized finance (DeFi), tokenization, non-fungible tokens (NFTs), decentralized autonomous organizations (DAOs), gaming applications, and other types of decentralized applications (DApps) are all made possible by blockchain technology.
 
-Ethereum and other blockchains have standards to create your own tokens. This can be done for a variety of reasons, from awards to utility to governance, and is typically referred to as tokenization. Non fungible tokens or NFTs utilize tokenization, to make tokens not for spending but for tracking digital elements on the blockchain. These are often used for art but can also be used as access keys in many other use cases. 
+Ethereum and other blockchains have established standards for creating tokens, which can be used for a variety of purposes, such as awards, utility, and governance. 
 
-Decentralized autonomous organizations or DAOs utilize the trustless nature of the blockchain to bring groups together to do a variety of tasks from investment groups to social groups to well, buying the US constitution. 
+NFTs utilize tokenization to track digital elements on the blockchain, often used for art and access keys. 
 
-By using tokens or NFTs for access and enabling public voting on chain, you don't need to know people in the group to be able to trust in the process.
+DAOs utilize the trustless nature of the blockchain to bring groups together to do a variety of tasks from investment groups to social groups to well, buying the US constitution. 
+By using tokens or NFTs for access and enabling public voting on chain, you don't need to know people in the group to be able to trust in the process. 
 
-Many new play to earn games are arising where you can earn crypto from playing them. Additionally, in game items can be purchased and traded as NFTs. And there are even entire virtual worlds like Decentraland in what many are calling the metaverse. 
+Play-to-earn games are emerging, where users can earn crypto and purchase in-game items as NFTs. Entire virtual worlds are being created, such as Decentraland, forming what some call the metaverse.
 
-Blockchain technology is not only limited to cryptocurrency and non-fungible tokens (NFTs), but also provides a decentralized network that can be used to create various types of decentralized apps (DApps). These DApps eliminate the need for intermediaries, enabling users to perform financial transactions and other functions directly through the network. It transforms the way we interact financially and socially, a new internet is emerging that allows for the creation of innovative DApps, tokens, and NFTs.
+DApps eliminate the need for intermediaries, enabling direct financial and social transactions on the decentralized network. The emergence of innovative DApps, tokens, and NFTs is transforming the way we interact financially and socially, creating a new internet.
 
 ### DeFi
 
