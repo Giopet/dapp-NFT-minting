@@ -100,6 +100,8 @@ As a developer, there are a few key concepts and skills that you should familiar
 
 ## Decentralization and Web3 opportunities
 
+### Introduction
+
 Decentralized finance (DeFi), tokenization, non-fungible tokens (NFTs), decentralized autonomous organizations (DAOs), gaming applications, and other types of decentralized applications (DApps) are all made possible by blockchain technology.
 
 Ethereum and other blockchains have established standards for creating tokens, which can be used for a variety of purposes, such as awards, utility, and governance. 
