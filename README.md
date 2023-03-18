@@ -5,40 +5,63 @@
 ### Install Npm
 
 Download and install Node.js from the official website (https://nodejs.org/).
-Once Node.js is installed, open your command prompt (for Windows users) or terminal (for Mac and Linux users).
-Verify that Node.js and npm are installed correctly by typing the following commands:
+Verify that Node.js and npm are installed correctly by typing the following commands on command prompt (Windows):
 ```console
 node -v
 ```
 ```console
-node -v
+npm -v
 ```
-
-
-	node -v
-
-	npm -v
 
 If these commands return version numbers, it means that Node.js and npm are installed correctly.
-If you need to update npm to the latest version, you can do so by typing the following command:
-
-    npm install -g npm
+If you need to update npm to the latest version, you can do by typing the following command:
+```console
+npm install -g npm
+```
 
 This will install the latest version of npm globally on your system.
-
-That's it! You have successfully installed npm on your system. You can now use npm to manage packages and dependencies for your Node.js projects.
+You can now use npm to manage packages and dependencies for your Node.js projects.
 
 ### Create react app
 
-Write a command using the CLI to create a react app: 
+Type the following command to create a react app and name it: 
+```console
+npx create-react-app frontend
+```
 
-	npx create-react-app frontend
+Starts the development server:
+```console
+npm start
+```
 
-![image](https://user-images.githubusercontent.com/53083156/224837980-71dfe1d3-7c8c-4fe9-9a2b-4779c6f5d7e3.png)
+Bundles the app into static files for production:
+```console
+npm run build
+```
 
-To stop the server:
-	
+Starts the test runner:
+```console
+npm test
+```
+
+Removes tthis tool and copies build dependencies, configuration files and scripts into the app directory. 
+If you do this, you can't go back!
+```console
+npm run eject
+```
+
+Suggested beginning by typing:
+```console
+cd frontend
+```
+```console
+npm start
+```
+
+Stops the server:
+
 	ctrl + c
+
 
 ## Wallet Setup
 
