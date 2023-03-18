@@ -102,18 +102,24 @@ As a developer, there are a few key concepts and skills that you should familiar
 
 ### Introduction
 
-Decentralized finance (DeFi), tokenization, non-fungible tokens (NFTs), decentralized autonomous organizations (DAOs), gaming applications, and other types of decentralized applications (DApps) are all made possible by blockchain technology.
+Made by blockchain technology:
+-  Decentralized finance (DeFi)
+-  Tokenization
+-  Non-fungible tokens (NFTs)
+-  Decentralized autonomous organizations (DAOs)
+-  Gaming applications,
+-  Other types of decentralized applications (DApps)..
 
-Ethereum and other blockchains have established standards for creating tokens, which can be used for a variety of purposes, such as awards, utility, and governance. 
+Ethereum and other blockchains have established **standards** for creating tokens, which can be used for a variety of purposes, such as awards, utility, and governance. 
 
-NFTs utilize tokenization to track digital elements on the blockchain, often used for art and access keys. 
+**NFTs** utilize tokenization to track digital elements on the blockchain, often used for art and access keys. 
 
-DAOs utilize the trustless nature of the blockchain to bring groups together to do a variety of tasks from investment groups to social groups to well, buying the US constitution. 
+**DAOs** utilize the trustless nature of the blockchain to bring groups together to do a variety of tasks from investment groups to social groups to well, buying the US constitution. 
 By using tokens or NFTs for access and enabling public voting on chain, you don't need to know people in the group to be able to trust in the process. 
 
-Play-to-earn games are emerging, where users can earn crypto and purchase in-game items as NFTs. Entire virtual worlds are being created, such as Decentraland, forming what some call the metaverse.
+Play-to-earn **games** are emerging, where users can earn crypto and purchase in-game items as NFTs. Entire virtual worlds are being created, such as Decentraland, forming what some call the metaverse.
 
-DApps eliminate the need for intermediaries, enabling direct financial and social transactions on the decentralized network. The emergence of innovative DApps, tokens, and NFTs is transforming the way we interact financially and socially, creating a new internet.
+**DApps** eliminate the need for intermediaries, enabling direct financial and social transactions on the decentralized network. The emergence of innovative DApps, tokens, and NFTs is transforming the way we interact financially and socially, creating a new internet.
 
 ### DeFi
 
