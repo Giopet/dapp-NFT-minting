@@ -52,7 +52,6 @@ If you do this, you can't go back!
 npm run eject
 ```
 
-
 #### Suggested beginning by typing:
 ```console
 cd frontend
@@ -206,8 +205,11 @@ Types of clients that you can run:
 - The execution client, which is the current consensus methodology, which is proof-of-work. That is the old-fashioned like Bitcoin way of mining using processing power. 
 - The consensus clients, which is also called the beacon chain. It used to be called Ethereum 2.0. And this uses proof-of-stake. You can essentially lock up some of your Ether and that is essentially what will create new Ether in the mining process is these. Everyone's who's locked up their Ether will get rewards. 
 
-There are a number of different clients out there and I won't get into them. Typically, most people, as you saw on that website use [Geth](https://geth.ethereum.org/), which is written in Go. But there are others for people who have preferences otherwise. 
-The other piece to know about is you can run clients that are specifically for running testing. And they'll run in the Ethereum client locally. **Ganache** and **Hardhat** are testing environments that can be used for just this purpose. Additionally, there are other networks available in addition to the Mainnet that can be used specifically for testing. So they're kind of like somewhere between your local testing environment and the final Mainnet. 
+There are a number of different clients out there but most people use [Geth](https://geth.ethereum.org/), which is written in Go. 
+
+You can run clients that are specifically for running testing. And they'll run in the Ethereum client locally.
+**Ganache** and **Hardhat** are testing environments that can be used for just this purpose. 
+Additionally, there are other networks available in addition to the Mainnet that can be used specifically for testing. So they're kind of like somewhere between your local testing environment and the final Mainnet. 
 
 So Ethereum is a blockchain for programming. And its core functioning is possible because of the EVM. And that's what processes are compiled smart contract. It's available in a number of different version but Geth is pretty much by far and away the most popular. Because Ethereum can process what we call Turing complete programming, which means it can do loops and iterate and things, it gives Ethereum a lot of power and make it a unique and really good platform for decentralized application development. 
 
@@ -225,7 +227,7 @@ The stack is the combined tool set that's used to interact with the client, to h
 Let's take a look at the details of today's ethereum full stack:
 - The wallet is typically **MetaMask**.
 - **web3.js** was the original JavaScript client library, and this is supporting interacting with the wallet and talking to the blockchain. However **Ethers.js** has evolved, and it's a newer library and it's a little bit smaller and more well documented, and even has some other benefits.
-- Testing of smart contracts is typically done in **Truffle** if you're using web3.js suite, and in **Waffle**, which is new, and that goes along with the Ethers.js.
+- Testing of smart contracts is typically done in **Truffle** if you're using **web3.js** suite, and in **Waffle**, which is new, and that goes along with the **Ethers.js.**
 - When you want to interact directly with the blockchain, it used to be you had to run a node and really look through things quite manually. However, now there are a number of APIs available, including The **Graph**, **Alchemy**, **Morales**, **Infura**, and these have all made it a lot easier, not to mention we don't have to maintain nodes, they can maintain well performing nodes for us.
 - The file system has settled to pretty much the interplanetary file system(**IPFS**) as the decentralized source of data. Swarm still exists, but most applications today in NFT projects tend to use IPFS for storage. And the arrival of pinata is a nice user friendly layer that sits on top of IPFS and makes it easy to interact with. 
 
@@ -233,7 +235,7 @@ Let's take a look at the details of today's ethereum full stack:
 
 ## Wallets
 
-The wallet is where users keep their tokens, both fungible and NFTs, but crypto wallets do more than that. The wallet is where the user experience begins and ends. For our dApps, we'll be interacting with these wallets either via mobile apps, or via web plugins.
+The wallet is where users keep their tokens, both fungible and NFTs, but crypto wallets do more than that. The wallet is where the user experience begins and ends. 
 
 There are many different [wallets](https://www.ethereum.org/en/wallets/find-wallet/) available for Ethereum. These wallets sometimes specialize in one thing or another, they might be an actual browser, a plugin, or an app.
 
@@ -245,7 +247,7 @@ On Metamask plugin you can show the network you are on and you can change it for
 
 ## Smart contracts
 
-At the core of what makes DApps work are smart contracts. Smart contracts are the programming classes of web three, and they're the backend and transactional layer of all of the decentralized applications that we build. 
+At the core of what makes DApps work are smart contracts. Smart contracts are the programming classes of web3, and they're the backend and transactional layer of all of the decentralized applications that we build. 
 
 Think of smart contracts as a special type of programming class that they have functions and variables. Some of the variables are built in, like those that store the ether within the contract.
 Others are custom that you write yourself:
@@ -255,7 +257,7 @@ Others are custom that you write yourself:
 Any of this data that's being stored in these variables or in the contract is written to the blockchain.
 
 Smart Contract is a blockchain class.
-![image](https://user-images.githubusercontent.com/53083156/225157938-af148d13-edc2-49f4-b8b5-a56aa4c6978b.png)
+![[Pasted image 20230405222724.png]]
 
 One big difference between this programming and other development environments is that calling write operations costs ether. We call this "Gas" because it's essentially fueling the blockchain. 
 This can be a good thing because it essentially makes it expensive to write to the blockchain. So, it keeps junk from being written to the blockchain, which is good. It also pays the node operators for helping to fuel the Ethereum network, which is also good. 
@@ -265,7 +267,8 @@ So, what's happening because of that is there are some layer two environments th
 
 Every contract runs in its own blockchain partition that's stored in an account, which is basically the same type of an account that would be a wallet address. And these smart contracts can hold tokens and they can release tokens when certain conditions are met, basically you have to call a function to get the data out.
 
-![image](https://user-images.githubusercontent.com/53083156/225159556-545642f6-b818-470f-b02b-5ad3ce4a7e70.png)
+Contracts Stored at Wallet Addresses:
+![[Pasted image 20230405223158.png]]
 
 One example is you could have a smart contract that holds money. So, when essentially you send money to smart contract, it gets held and when some conditions are met, then it releases the money to the other person. Once those conditions are met, kind of like an escrow, this is really how smart contracts began because it makes it easy for these financial contracts to be written up and essentially eliminate intermediaries. Basically we pay thousands of dollars to have someone escrow money for a house, which is really just this, only there's people monitoring it. But if you could automate it, that would be amazing. 
 
@@ -276,7 +279,7 @@ Some projects will actually expose the code of the contract so that people can s
 Ethereum is Turing-complete programming language, everything is stored on the blockchain. So, it's decentralized, it's public, and unchangeable.
 Smart contracts can do all kinds of financial processing and due to the fact that it's right into the blockchain, it costs gas. And of course it can hold data beyond just transactional and store that state. So, any key value pairs can be stored essentially in the blockchain, but every time you call the smart contract, that data will be available to the smart contract.
 
-So, smart contracts are the programming classes that live on the blockchain, and they're what we use to be called on and operated with through our DApps. And it's really these smart contracts that give web three its core utility, and they're responsible for everything from tokenization to NFTs, to DeFi operations and more. 
+So, smart contracts are the programming classes that live on the blockchain, and they're what we use to be called on and operated with through our DApps. And it's really these smart contracts that give web3 its core utility, and they're responsible for everything from tokenization to NFTs, to DeFi operations and more. 
 
 ## IPFS, Swarm, and Piñata
 
