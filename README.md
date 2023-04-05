@@ -573,3 +573,14 @@ Solution:
 ```command
 set NODE_OPTIONS=--openssl-legacy-provider
 ```
+
+or replace spripts on package.json file
+
+```command
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+},
+```
