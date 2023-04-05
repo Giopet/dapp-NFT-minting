@@ -257,7 +257,7 @@ Others are custom that you write yourself:
 Any of this data that's being stored in these variables or in the contract is written to the blockchain.
 
 Smart Contract is a blockchain class.
-![[Pasted image 20230405222724.png]]
+![[Screenshot 2023-04-05 223831.png]]
 
 One big difference between this programming and other development environments is that calling write operations costs ether. We call this "Gas" because it's essentially fueling the blockchain. 
 This can be a good thing because it essentially makes it expensive to write to the blockchain. So, it keeps junk from being written to the blockchain, which is good. It also pays the node operators for helping to fuel the Ethereum network, which is also good. 
@@ -268,7 +268,7 @@ So, what's happening because of that is there are some layer two environments th
 Every contract runs in its own blockchain partition that's stored in an account, which is basically the same type of an account that would be a wallet address. And these smart contracts can hold tokens and they can release tokens when certain conditions are met, basically you have to call a function to get the data out.
 
 Contracts Stored at Wallet Addresses:
-![[Pasted image 20230405223158.png]]
+![[Screenshot 2023-04-05 223733 1.png]]
 
 One example is you could have a smart contract that holds money. So, when essentially you send money to smart contract, it gets held and when some conditions are met, then it releases the money to the other person. Once those conditions are met, kind of like an escrow, this is really how smart contracts began because it makes it easy for these financial contracts to be written up and essentially eliminate intermediaries. Basically we pay thousands of dollars to have someone escrow money for a house, which is really just this, only there's people monitoring it. But if you could automate it, that would be amazing. 
 
